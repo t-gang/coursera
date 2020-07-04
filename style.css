@@ -1,0 +1,90 @@
+
+* {
+    box-sizing: border-box;
+     padding: 0px;
+     margin:0px;
+     font-size: 1.2em;
+}
+
+.row {
+    width: 100%;
+}
+
+/* p
+{
+
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+} */
+@media(min-width: 992px) {
+    .col-lg-4 {
+        border: 3px solid black;
+        float: left;
+        background-color: rgb(171, 233, 230);
+        width: 30%;
+        margin: 12px;
+        position: relative;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+    .col-md-6,
+    .col-md-12 {
+        background-color: rgb(171, 233, 230);
+        border: 2px solid black;
+        float: left;
+        margin: 12px;
+        position: relative;
+
+    }
+
+    .col-md-6 {
+
+        width: 45%;
+    }
+
+    .col-md-12 {
+
+        width: 93%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        border: 2px solid black;
+        position: relative;
+        background-color: rgb(171, 233, 230);
+        width: 95%;
+        margin: 12px;
+    }
+}
+
+h2 {
+    border: 2px solid black;
+    /* margin: 3px; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+h1{
+   text-align: center;
+   margin-top:23px;
+   margin-bottom:23px;
+   font-size: 3em;
+   
+}
+p {
+    margin: 53px;
+}
+#a1{
+    background-color: rgb(118, 135, 214);
+}
+#a2{
+    background-color: rgb(195, 101, 98);
+}
+#a3{
+    background-color: rgb(160, 159, 224);
+}
